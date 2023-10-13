@@ -6,7 +6,7 @@ https://arxiv.org/ftp/arxiv/papers/2310/2310.07720.pdf
 from tensorflow.keras import backend as K
 from tensorflow.keras.layers import Input, Conv2D, Lambda
 from tensorflow.keras.utils import get_custom_objects
-def SigmoReLU(x):
+def PLTanh(x):
   """
   The gradients are automatically calculated on TF2
   """
